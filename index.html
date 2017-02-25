@@ -4,54 +4,52 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="images/Google_-G-_Logo.svg.png" rel="icon">
-	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link href="images/Google_-G-_Logo.svg.png" rel="icon"/>
 	<title>Google Homepage</title>
 </head>
 
 <body>
-	<nav>
+	<nav id="header">
 		<ul>
 			<li><a href="https://www.gmail.com">Gmail</a></li>
 			<li><a href="https://images.google.com">Images</a></li>
 			<li><a href="#"><img src="images/square_icon.png" alt="grid"></a></li>
-			<a href="#"><img src="images/alert.png" alt="alert"></a></li>
-			<li><a href="http://accounts.google.com" id="sign_in">Sign in</a></li>
+			<li><img src="images/alert.png" alt="alert" width="25px 20px"></li>
+			<li><a href="http://accounts.google.com">Sign in</a></li>
 		</ul>
 	</nav>
-
-	<div id="google-logo">
-		<img src="https://www.fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png" alt="Google Logo"></a>
+	<div class="logo" style="height:240px; text-align:center;">
+		<img id="googlelgo" src="images/googlelogo.png" style="padding-top: 100px;">
 	</div>		
-	<div class="search_form">
-		<form action="#" method="GET">
-			<input type="text" name="search" id="search_field" /><br />
-			<input type="submit" name="search_button" value="Google Search" class="button">
-			<input type="submit" name="lucky_button" value="I'm Feeling Lucky" class="button">
+	<div class="shrch" id="searchform">
+		<form action="#" method="GET" style="padding:0 0px; text-align: center;">
+			<input type="text" name="search" id="search_field" style="width:450px;height:38px;border-bottom-width: 3px;border-left-width: 3px;border-top-width: 3px;border-right-width: 3px;padding-top: 0px;padding-bottom: 0px;">
+			<br/>
+			<input type="submit" name="search_button" value="Google Search" class="button" style="line-height: 27px; width: 141px; height: 39px; padding-top: 10px;padding-bottom: 10px;">
+			<input type="submit" name="lucky_button" value="I'm Feeling Lucky" class="button" style="line-height: 27px; width: 141px; height: 39px; padding-top: 10px; padding-bottom: 10px;">
 		</form>
 	</div>
 	<footer>
-		<ul id="foot_l">
+		<ul id="foot_l" style="text-align:left";>
 			<li>
-				<a href="https://www.google.co.kr/intl/en/ads/?fg=1">Advertising</a>	
-			</li>
+				<a href="#">Advertising</a></li>
 			<li>
-				<a href="https://www.google.co.kr/services/?fg=1">Business</a>
-			</li>
+				<a href="#">Business</a></li>
 			<li>
-				<a href="https://www.google.co.kr/intl/en/about/">About</a>
-			</li>		
+				<a href="#">About</a></li>		
 		</ul>
-		<ul id="foot_r">
+		<ul id="foot_r" style="text-align:right;">
 			<li>
 				<a href="https://www.google.co.kr/intl/en/policies/privacy/?fg=1">Privacy</a>
 			</li>
 			<li>
-				<a href="https://www.google.co.kr/intl/en/policies/terms/regional.html"></a>
+				<a href="https://www.google.co.kr/intl/en/policies/terms/regional.html">Terms</a>
 			</li>
 			<li>
 				<a href="#">Settings</a>
 			</li>
 		</ul>
 	</footer>
+
 </body>
