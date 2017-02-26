@@ -4,12 +4,12 @@ body {
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
-	color: #404040;
 	font-family: Arial;
 	font-size: 13px;
 	margin: 0;
 	padding: 0;
 }
+/* navigation bar */
 header {
 	position: absolute;
 	top: 0px;
@@ -48,6 +48,7 @@ nav ul li a {
 nav ul li a:hover {
 	text-decoration: underline;
 }
+/* content */
 form {
 	display: block;
 	text-align: -webkit-center;
@@ -95,6 +96,8 @@ input[type=text]{
     border: 1px solid #cccccc;
     box-shadow: 0px 1px 1px 1px rgba(0,0,0,.1);
 }
+
+/* footer */
 footer {
 width: 100%;
 position: fixed;
@@ -120,7 +123,6 @@ display: block;
 	color: #666;
 	display: inline;
 	margin: 0 15px;
-	text-decoration: none;
 }
 p {
 	display: block;
@@ -128,4 +130,14 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+
+/* footer unvisited link */
+p a {
+	text-decoration: none;
+	color: #404040;
+}
+
+p a:hover {
+	text-decoration: underline;
 }
